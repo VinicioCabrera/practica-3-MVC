@@ -15,7 +15,7 @@ los metos getters y setters, to String().Con cuatro atributos y tres metos para 
 * creacion del menu
 ![5](https://user-images.githubusercontent.com/49033433/56709240-c890fd80-66e5-11e9-9baf-9df6f4de2aa7.jpg)
 * Se desarrollo el diagrama uml con las siguientes relaciones de los controladores y la prueba.
-![8](https://user-images.githubusercontent.com/49033433/56710377-84a0f700-66eb-11e9-9448-31c57b0624fb.jpg)
+![9](https://user-images.githubusercontent.com/49033433/56710458-db0e3580-66eb-11e9-9a4d-c2d71ec7947e.jpg)
 * Funcionamiento del programa 
 ![6](https://user-images.githubusercontent.com/49033433/56709263-f2e2bb00-66e5-11e9-8537-8bdf5e834b53.jpg)
 ![7](https://user-images.githubusercontent.com/49033433/56709294-19a0f180-66e6-11e9-8109-4d53d0b8f902.jpg)
