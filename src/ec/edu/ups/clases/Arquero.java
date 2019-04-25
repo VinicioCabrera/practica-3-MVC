@@ -18,29 +18,25 @@ private int saqueArco;
 private int GuantesColocados;
 private double longitudDeMano;
 
-    public Arquero(int porcentajeTapadas, int saqueArco, int GuantesColocados, double longitudDeMano, int codigoJgador, String cedula, Date fechaContratacion, String Posicion) {
-        super(codigoJgador, cedula, fechaContratacion, Posicion);
+    public Arquero() {
+    }
+
+    public Arquero(int porcentajeTapadas, int saqueArco, int GuantesColocados, double longitudDeMano) {
         this.porcentajeTapadas = porcentajeTapadas;
         this.saqueArco = saqueArco;
         this.GuantesColocados = GuantesColocados;
         this.longitudDeMano = longitudDeMano;
     }
 
-    public Arquero(int porcentajeTapadas, int saqueArco, int GuantesColocados, double longitudDeMano, int codigoJgador, String cedula, Date fechaContratacion, String Posicion, String nombre, String cargo) {
-        super(codigoJgador, cedula, fechaContratacion, Posicion, nombre, cargo);
+    public Arquero(int porcentajeTapadas, int saqueArco, int GuantesColocados, double longitudDeMano, String cedula, String Posicion, int codigoPersona, String nombre, String cargo, String Apellido, int edad) {
+        super(cedula, Posicion, codigoPersona, nombre, cargo, Apellido, edad);
         this.porcentajeTapadas = porcentajeTapadas;
         this.saqueArco = saqueArco;
         this.GuantesColocados = GuantesColocados;
         this.longitudDeMano = longitudDeMano;
     }
 
-    public Arquero(int porcentajeTapadas, int saqueArco, int GuantesColocados, double longitudDeMano, int codigoJgador, String cedula, Date fechaContratacion, String Posicion, String nombre, String cargo, String Apellido, int edad) {
-        super(codigoJgador, cedula, fechaContratacion, Posicion, nombre, cargo, Apellido, edad);
-        this.porcentajeTapadas = porcentajeTapadas;
-        this.saqueArco = saqueArco;
-        this.GuantesColocados = GuantesColocados;
-        this.longitudDeMano = longitudDeMano;
-    }
+    
 
   
 

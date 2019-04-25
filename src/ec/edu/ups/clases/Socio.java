@@ -13,46 +13,27 @@ import java.util.Date;
  */
 public abstract class Socio extends Persona {
  private String tipo;
- private int codigoSocio;
  private String tiempoSocio;
  private Date fechaSocio;  
 
     public Socio() {
     }
- 
 
-    public Socio(String tipo, int codigoSocio, String tiempoSocio, Date fechaSocio) {
+    public Socio(String tipo, String tiempoSocio, Date fechaSocio) {
         this.tipo = tipo;
-        this.codigoSocio = codigoSocio;
         this.tiempoSocio = tiempoSocio;
         this.fechaSocio = fechaSocio;
     }
 
-    public Socio(String tipo, int codigoSocio, String tiempoSocio, Date fechaSocio, String nombre, String cargo) {
-        super(nombre, cargo);
+    public Socio(String tipo, String tiempoSocio, int codigoPersona, String nombre, String cargo, String Apellido, int edad) {
+        super(codigoPersona, nombre, cargo, Apellido, edad);
         this.tipo = tipo;
-        this.codigoSocio = codigoSocio;
         this.tiempoSocio = tiempoSocio;
-        this.fechaSocio = fechaSocio;
+        
     }
-
-    public Socio(String tipo, int codigoSocio, String tiempoSocio, Date fechaSocio, String nombre, String cargo, String Apellido, int edad) {
-        super(nombre, cargo, Apellido, edad);
-        this.tipo = tipo;
-        this.codigoSocio = codigoSocio;
-        this.tiempoSocio = tiempoSocio;
-        this.fechaSocio = fechaSocio;
-    }
-
-    
-
  
     public String getTipo() {
         return tipo;
-    }
-
-    public int getCodigoSocio() {
-        return codigoSocio;
     }
 
     public String getTiempoSocio() {
@@ -67,10 +48,6 @@ public abstract class Socio extends Persona {
         this.tipo = tipo;
     }
 
-    public void setCodigoSocio(int codigoSocio) {
-        this.codigoSocio = codigoSocio;
-    }
-
     public void setTiempoSocio(String tiempoSocio) {
         this.tiempoSocio = tiempoSocio;
     }
@@ -81,7 +58,7 @@ public abstract class Socio extends Persona {
 
     @Override
     public String toString() {
-        return super.toString()+"Socio{" + "tipo=" + tipo + ", codigoSocio=" + codigoSocio + ", tiempoSocio=" + tiempoSocio + ", fechaSocio=" + fechaSocio + '}';
+        return super.toString()+"Socio{" + "tipo=" + tipo + ", tiempoSocio=" + tiempoSocio + ", fechaSocio=" + fechaSocio + '}';
     }
  
   public abstract String cuentas();

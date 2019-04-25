@@ -10,7 +10,6 @@ import java.util.Date;
  * @author Usuario
  */
 public abstract class Jugador extends Persona {
-private int codigoJgador;
 private String cedula;
 private Date fechaContratacion;
 private String Posicion; 
@@ -18,33 +17,15 @@ private String Posicion;
     public Jugador() {
     }
 
-    public Jugador(int codigoJgador, String cedula, Date fechaContratacion, String Posicion) {
-        this.codigoJgador = codigoJgador;
+    public Jugador(String cedula, String Posicion) {
         this.cedula = cedula;
-        this.fechaContratacion = fechaContratacion;
         this.Posicion = Posicion;
     }
 
-    public Jugador(int codigoJgador, String cedula, Date fechaContratacion, String Posicion, String nombre, String cargo) {
-        super(nombre, cargo);
-        this.codigoJgador = codigoJgador;
+    public Jugador(String cedula, String Posicion, int codigoPersona, String nombre, String cargo, String Apellido, int edad) {
+        super(codigoPersona, nombre, cargo, Apellido, edad);
         this.cedula = cedula;
-        this.fechaContratacion = fechaContratacion;
         this.Posicion = Posicion;
-    }
-
-    public Jugador(int codigoJgador, String cedula, Date fechaContratacion, String Posicion, String nombre, String cargo, String Apellido, int edad) {
-        super(nombre, cargo, Apellido, edad);
-        this.codigoJgador = codigoJgador;
-        this.cedula = cedula;
-        this.fechaContratacion = fechaContratacion;
-        this.Posicion = Posicion;
-    }
-
-   
-
-    public int getCodigoJgador() {
-        return codigoJgador;
     }
 
     public String getCedula() {
@@ -59,9 +40,6 @@ private String Posicion;
         return Posicion;
     }
 
-    public void setCodigoJgador(int codigoJgador) {
-        this.codigoJgador = codigoJgador;
-    }
 
     public void setCedula(String cedula) {
         this.cedula = cedula;
@@ -77,7 +55,7 @@ private String Posicion;
 
     @Override
     public String toString() {
-        return super.toString()+"Jugador{" + "codigoJgador=" + codigoJgador + ", cedula=" + cedula + ", fechaContratacion=" + fechaContratacion + ", Posicion=" + Posicion + '}';
+        return super.toString()+"Jugador{" + ", cedula=" + cedula + ", fechaContratacion=" + fechaContratacion + ", Posicion=" + Posicion + '}';
     }
  public abstract String goles();
   
