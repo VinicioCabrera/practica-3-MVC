@@ -13,74 +13,66 @@ import java.util.Date;
  * @author Usuario
  */
 public final class Delantero extends Jugador implements Interfaz {
-private int porcentajeTapadas;
-private int saqueArco;
-private int GuantesColocados;
-private double longitudDeMano;
+ private int promediogoles;
+ private int remates;
+ private int pasesCompletos;
+ private int tirosEsquina;
 
-    public Delantero(int porcentajeTapadas, int saqueArco, int GuantesColocados, double longitudDeMano, int codigoJgador, String cedula, Date fechaContratacion, String Posicion) {
-        super(codigoJgador, cedula, fechaContratacion, Posicion);
-        this.porcentajeTapadas = porcentajeTapadas;
-        this.saqueArco = saqueArco;
-        this.GuantesColocados = GuantesColocados;
-        this.longitudDeMano = longitudDeMano;
+    public Delantero() {
     }
 
-    public Delantero(int porcentajeTapadas, int saqueArco, int GuantesColocados, double longitudDeMano, int codigoJgador, String cedula, Date fechaContratacion, String Posicion, String nombre, String cargo) {
-        super(codigoJgador, cedula, fechaContratacion, Posicion, nombre, cargo);
-        this.porcentajeTapadas = porcentajeTapadas;
-        this.saqueArco = saqueArco;
-        this.GuantesColocados = GuantesColocados;
-        this.longitudDeMano = longitudDeMano;
+    public Delantero(int promediogoles, int remates, int pasesCompletos, int tirosEsquina) {
+        this.promediogoles = promediogoles;
+        this.remates = remates;
+        this.pasesCompletos = pasesCompletos;
+        this.tirosEsquina = tirosEsquina;
     }
 
-    public Delantero(int porcentajeTapadas, int saqueArco, int GuantesColocados, double longitudDeMano, int codigoJgador, String cedula, Date fechaContratacion, String Posicion, String nombre, String cargo, String Apellido,int edad) {
-        super(codigoJgador, cedula, fechaContratacion, Posicion, nombre, cargo, Apellido, edad);
-        this.porcentajeTapadas = porcentajeTapadas;
-        this.saqueArco = saqueArco;
-        this.GuantesColocados = GuantesColocados;
-        this.longitudDeMano = longitudDeMano;
+    public Delantero(int promediogoles, int remates, int pasesCompletos, int tirosEsquina, String cedula, String Posicion, int codigoPersona, String nombre, String cargo, String Apellido, int edad) {
+        super(cedula, Posicion, codigoPersona, nombre, cargo, Apellido, edad);
+        this.promediogoles = promediogoles;
+        this.remates = remates;
+        this.pasesCompletos = pasesCompletos;
+        this.tirosEsquina = tirosEsquina;
     }
- 
-   
-   
-
-    public int getPorcentajeTapadas() {
-        return porcentajeTapadas;
+    
+    public int getPromediogoles() {
+        return promediogoles;
     }
 
-    public int getSaqueArco() {
-        return saqueArco;
+    public int getRemates() {
+        return remates;
     }
 
-    public int getGuantesColocados() {
-        return GuantesColocados;
+    public int getPasesCompletos() {
+        return pasesCompletos;
     }
 
-    public double getLongitudDeMano() {
-        return longitudDeMano;
+    public int getTirosEsquina() {
+        return tirosEsquina;
     }
 
-    public void setPorcentajeTapadas(int porcentajeTapadas) {
-        this.porcentajeTapadas = porcentajeTapadas;
+    public void setPromediogoles(int promediogoles) {
+        this.promediogoles = promediogoles;
     }
 
-    public void setSaqueArco(int saqueArco) {
-        this.saqueArco = saqueArco;
+    public void setRemates(int remates) {
+        this.remates = remates;
     }
 
-    public void setGuantesColocados(int GuantesColocados) {
-        this.GuantesColocados = GuantesColocados;
+    public void setPasesCompletos(int pasesCompletos) {
+        this.pasesCompletos = pasesCompletos;
     }
 
-    public void setLongitudDeMano(double longitudDeMano) {
-        this.longitudDeMano = longitudDeMano;
+    public void setTirosEsquina(int tirosEsquina) {
+        this.tirosEsquina = tirosEsquina;
     }
 
     @Override
     public String toString() {
-        return super.toString()+"Delantero{" + "porcentajeTapadas=" + porcentajeTapadas + ", saqueArco=" + saqueArco + ", GuantesColocados=" + GuantesColocados + ", longitudDeMano=" + longitudDeMano + '}';
+        return "Delantero{" + "promediogoles=" + promediogoles + ", remates=" + remates + ", pasesCompletos=" + pasesCompletos + ", tirosEsquina=" + tirosEsquina + '}';
     }
+    
 
     @Override
     public String estadio() {

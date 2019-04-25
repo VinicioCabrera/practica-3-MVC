@@ -6,44 +6,32 @@
 package ec.edu.ups.clases;
 
 import ec.edu.ups.interfaz.Interfaz;
-import java.util.Date;
+
 
 /**
  *
  * @author Usuario
  */
 public final class Auspisiante extends Socio implements Interfaz{
-private int codigo;
+
 private String nombreAuspiciante;
 private double aportacion;
 private String materiaDeportivo; 
 
-    public Auspisiante(int codigo, String nombreAuspiciante, double aportacion, String materiaDeportivo, String tipo, int codigoSocio, String tiempoSocio, Date fechaSocio) {
-        super(tipo, codigoSocio, tiempoSocio, fechaSocio);
-        this.codigo = codigo;
+    public Auspisiante() {
+    }
+
+    public Auspisiante(String nombreAuspiciante, double aportacion, String materiaDeportivo) {
         this.nombreAuspiciante = nombreAuspiciante;
         this.aportacion = aportacion;
         this.materiaDeportivo = materiaDeportivo;
     }
 
-    public Auspisiante(int codigo, String nombreAuspiciante, double aportacion, String materiaDeportivo, String tipo,int codigoSocio, String tiempoSocio, Date fechaSocio, String nombre, String cargo) {
-        super(tipo, codigoSocio, tiempoSocio, fechaSocio, nombre, cargo);
-        this.codigo = codigo;
+    public Auspisiante(String nombreAuspiciante, double aportacion, String materiaDeportivo, String tipo, String tiempoSocio, int codigoPersona, String nombre, String cargo, String Apellido, int edad) {
+        super(tipo, tiempoSocio, codigoPersona, nombre, cargo, Apellido, edad);
         this.nombreAuspiciante = nombreAuspiciante;
         this.aportacion = aportacion;
         this.materiaDeportivo = materiaDeportivo;
-    }
-
-    public Auspisiante(int codigo, String nombreAuspiciante, double aportacion, String materiaDeportivo, String tipo, int codigoSocio, String tiempoSocio, Date fechaSocio, String nombre, String cargo, String Apellido, int edad) {
-        super(tipo, codigoSocio, tiempoSocio, fechaSocio, nombre, cargo, Apellido, edad);
-        this.codigo = codigo;
-        this.nombreAuspiciante = nombreAuspiciante;
-        this.aportacion = aportacion;
-        this.materiaDeportivo = materiaDeportivo;
-    }
-
-    public int getCodigo() {
-        return codigo;
     }
 
     public String getNombreAuspiciante() {
@@ -58,11 +46,7 @@ private String materiaDeportivo;
         return materiaDeportivo;
     }
 
-    public void setCodigo(int codigo) {
-        this.codigo = codigo;
-    }
-
-    public void setNombre(String nombreAuspiciante) {
+    public void setNombreAuspiciante(String nombreAuspiciante) {
         this.nombreAuspiciante = nombreAuspiciante;
     }
 
@@ -76,7 +60,7 @@ private String materiaDeportivo;
 
     @Override
     public String toString() {
-        return super.toString()+"Auspisiante{" + "codigo=" + codigo + ", nombreAuspiciante=" + nombreAuspiciante + ", aportacion=" + aportacion + ", materiaDeportivo=" + materiaDeportivo + '}';
+        return super.toString()+ ", nombreAuspiciante=" + nombreAuspiciante + ", aportacion=" + aportacion + ", materiaDeportivo=" + materiaDeportivo + '}';
     }
 
     @Override
