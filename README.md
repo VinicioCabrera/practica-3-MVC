@@ -15,7 +15,24 @@ los metos getters y setters, to String().Con cuatro atributos y tres metos para 
  
 * creacion de los controladores
 
-
+ CONTROLADORES
+ -------------
+ 
+ * Abonado:
+  ArrayList,
+  List
+ 
+ * Arquero:
+  SortedSet,
+  TreeSet
+ 
+ * Auspisiante:
+  HashSet,
+  Set
+ 
+ * Delantero:
+  HashMap,
+  Map
  
 * creacion del menu
 ![5](https://user-images.githubusercontent.com/49033433/56709240-c890fd80-66e5-11e9-9baf-9df6f4de2aa7.jpg)
