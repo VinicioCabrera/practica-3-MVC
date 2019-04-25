@@ -12,6 +12,25 @@ los metos getters y setters, to String().Con cuatro atributos y tres metos para 
 ![3](https://user-images.githubusercontent.com/49033433/56709126-430d4d80-66e5-11e9-8a15-6a8779c420be.jpg)
       •	PAQUETE PARA LA VISTA
  ![4](https://user-images.githubusercontent.com/49033433/56709189-8071db00-66e5-11e9-9210-28054088ed4c.jpg)
+ 
+* creacion de los controladores
+
+ Abonado
+ ---------
+ • ArrayList;
+ • List;
+ Arquero
+ -----------
+ • SortedSet;
+ • TreeSet;
+ Auspisiante
+ -----------
+ • HashSet;
+ • Set;
+ Delantero
+ ----------
+ • HashMap;
+ • Map;
 * creacion del menu
 ![5](https://user-images.githubusercontent.com/49033433/56709240-c890fd80-66e5-11e9-9baf-9df6f4de2aa7.jpg)
 * Se desarrollo el diagrama uml con las siguientes relaciones de los controladores y la prueba.
