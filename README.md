@@ -1,25 +1,30 @@
-Programacion POO
+Programacion MVC
 --------------------
 Desarrollo
 --------------------
-* creacion del repositori en GitHub para instaciar con el Netbeans 
-![1](https://user-images.githubusercontent.com/49033433/56100142-01a5c280-5edb-11e9-906f-18fe17c9755f.jpg)
-* creacion de las clases abuelo,padres,hijas y los diferentes paquetes en el cual en las siguientes clases se implementaro
+*	crear un repositorio en GitHub con el nombre “Práctica 03 – Arquitectura MVC”  
+![1](https://user-images.githubusercontent.com/49033433/56708984-73a0b780-66e4-11e9-84ed-143a12d769b9.jpg)
+* Sincronizar el repositorio creado con un proyecto en NetBeans. Realizar varios commit y push por cada requerimiento de los puntos a continuación descritos (incluir un mensaje que identifique claramente los commits realizados a GitHub). 
 los metos getters y setters, to String().Con cuatro atributos y tres metos para cada clase.
-![2](https://user-images.githubusercontent.com/49033433/56100213-77119300-5edb-11e9-951d-83c3f1b00406.jpg)
-* creacion de las clases con los metosdos abstracros  en que se implementaron metosdos sobre escritos para cada clase hija
-![3](https://user-images.githubusercontent.com/49033433/56100322-e2a83000-5edc-11e9-940c-682be60f48d1.jpg)
-* Se crea las clases finales hijas,clase interfaz en donde se tiene los metosdos abstractos y que estan implementados a las
-clases hijas,clase prueba en donde muestra el funcionamiento del programa.
+![2](https://user-images.githubusercontent.com/49033433/56709062-edd13c00-66e4-11e9-8589-ca9027deb23d.jpg)
+* 3.	Crear un paquete para los controladores y un paquete para la vista
+      •	PAQUETE PARA LOS CONTROLADORES    
+![3](https://user-images.githubusercontent.com/49033433/56709126-430d4d80-66e5-11e9-8a15-6a8779c420be.jpg)
+      •	PAQUETE PARA LA VISTA
+ ![4](https://user-images.githubusercontent.com/49033433/56709189-8071db00-66e5-11e9-9210-28054088ed4c.jpg)
+ 
+* creacion del menu
+![5](https://user-images.githubusercontent.com/49033433/56709240-c890fd80-66e5-11e9-9baf-9df6f4de2aa7.jpg)
 * Se desarrollo el diagrama uml con las siguientes relaciones.
 ![4](https://user-images.githubusercontent.com/49033433/56100533-7549ce80-5edf-11e9-8649-451ecc7cf4bf.jpg)
 * Funcionamiento del programa 
-![5](https://user-images.githubusercontent.com/49033433/56100546-ba6e0080-5edf-11e9-9b8c-223e430dfe56.jpg)
-* Informacion del url de GitHub:  https://github.com/VinicioCabrera/Pr-ctica-02-POO-con-Java
+![6](https://user-images.githubusercontent.com/49033433/56709263-f2e2bb00-66e5-11e9-8537-8bdf5e834b53.jpg)
+![7](https://user-images.githubusercontent.com/49033433/56709294-19a0f180-66e6-11e9-8109-4d53d0b8f902.jpg)
+* Informacion del url de GitHub:  https://github.com/VinicioCabrera/practica-3-MVC
 -------------
 Conclusion
 -------------
-Se muestra la programación de un diagrama uml, desarrollado en una POO. 
+Poder modelar e implementar aplicaciones de software mediante diagramas de clase y programación orientada a objetos. 
 
 Creado por:
 -------------
