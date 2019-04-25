@@ -11,10 +11,10 @@ import ec.edu.ups.controlador.*;
 import java.util.Scanner;
 
  /*
-* @version 2.0
+
  * @since 2019
  * @author Vinicio campoverde
- * @see http://ups.edu.ec
+ 
 */
 public class Menu {
   public static void main(String[] args) {

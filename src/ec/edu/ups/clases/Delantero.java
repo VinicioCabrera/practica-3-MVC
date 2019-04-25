@@ -6,13 +6,13 @@
 package ec.edu.ups.clases;
 
 import ec.edu.ups.interfaz.Interfaz;
-import java.util.Date;
+
 
 /**
  * @version 2.0
  * @since 2019
  * @author Vinicio campoverde
- * @see http://ups.edu.ec
+ 
  */
 public final class Delantero extends Jugador implements Interfaz {
  private int promediogoles;

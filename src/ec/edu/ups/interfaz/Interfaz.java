@@ -9,7 +9,7 @@ package ec.edu.ups.interfaz;
 * @version 2.0
  * @since 2019
  * @author Vinicio campoverde
- * @see http://ups.edu.ec
+ 
 */
 public interface Interfaz {
   

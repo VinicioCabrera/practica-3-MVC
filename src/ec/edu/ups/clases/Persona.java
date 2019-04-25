@@ -5,13 +5,13 @@
  */
 package ec.edu.ups.clases;
 
-import java.util.Date;
+
 
 /**
  * @version 2.0
  * @since 2019
  * @author Vinicio campoverde
- * @see http://ups.edu.ec
+ 
  */
 public class Persona implements Comparable<Persona>{
  private int codigoPersona;

@@ -9,7 +9,7 @@ import java.util.Date;
  * @version 2.0
  * @since 2019
  * @author Vinicio campoverde
- * @see http://ups.edu.ec
+ 
  */
 public abstract class Jugador extends Persona {
 private String cedula;
