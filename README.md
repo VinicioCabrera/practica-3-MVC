@@ -12,11 +12,10 @@ los metos getters y setters, to String().Con cuatro atributos y tres metos para 
 ![3](https://user-images.githubusercontent.com/49033433/56709126-430d4d80-66e5-11e9-8a15-6a8779c420be.jpg)
       •	PAQUETE PARA LA VISTA
  ![4](https://user-images.githubusercontent.com/49033433/56709189-8071db00-66e5-11e9-9210-28054088ed4c.jpg)
- 
 * creacion del menu
 ![5](https://user-images.githubusercontent.com/49033433/56709240-c890fd80-66e5-11e9-9baf-9df6f4de2aa7.jpg)
-* Se desarrollo el diagrama uml con las siguientes relaciones.
-![4](https://user-images.githubusercontent.com/49033433/56100533-7549ce80-5edf-11e9-8649-451ecc7cf4bf.jpg)
+* Se desarrollo el diagrama uml con las siguientes relaciones de los controladores y la prueba.
+![8](https://user-images.githubusercontent.com/49033433/56710377-84a0f700-66eb-11e9-9448-31c57b0624fb.jpg)
 * Funcionamiento del programa 
 ![6](https://user-images.githubusercontent.com/49033433/56709263-f2e2bb00-66e5-11e9-8537-8bdf5e834b53.jpg)
 ![7](https://user-images.githubusercontent.com/49033433/56709294-19a0f180-66e6-11e9-8109-4d53d0b8f902.jpg)
