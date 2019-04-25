@@ -4,7 +4,12 @@ package ec.edu.ups.controlador;
 import ec.edu.ups.clases.Abonado;
 import java.util.ArrayList;
 import java.util.List;
-
+ /*
+* @version 2.0
+ * @since 2019
+ * @author Vinicio campoverde
+ * @see http://ups.edu.ec
+*/
 
 
 public class ControladorAbonado {

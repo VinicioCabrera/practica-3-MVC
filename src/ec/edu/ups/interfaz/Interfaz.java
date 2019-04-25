@@ -5,10 +5,12 @@
  */
 package ec.edu.ups.interfaz;
 
-/**
- *
- * @author Usuario
- */
+ /*
+* @version 2.0
+ * @since 2019
+ * @author Vinicio campoverde
+ * @see http://ups.edu.ec
+*/
 public interface Interfaz {
   
     public abstract String estadio();

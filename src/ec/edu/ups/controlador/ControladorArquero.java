@@ -9,10 +9,12 @@ import ec.edu.ups.clases.Arquero;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
-/**
- *
- * @author Usuario
- */
+ /*
+* @version 2.0
+ * @since 2019
+ * @author Vinicio campoverde
+ * @see http://ups.edu.ec
+*/
 public class ControladorArquero {
     private SortedSet<Arquero> lista;
     private int codigo;
